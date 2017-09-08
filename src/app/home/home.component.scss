@@ -9,6 +9,6 @@ $background-pale: #D1C4E9;
 }
 
 .home{
-    background-color: $background-light;
-    @include zero-margin(60px, 0px);
+    @include zero-margin(40px, 0px);
+
 }
