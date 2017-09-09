@@ -1,0 +1,16 @@
+.bubble {
+    //background-color: #55acee;
+	margin:10px;
+    padding: 10px;
+	text-align:center;
+	background: #558cee;
+	background: linear-gradient(45deg, #558cee, #75ccfe);
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+    display:inline-block;
+    *display:inline;
+    *zoom:2;
+}
+

@@ -1,4 +1,22 @@
+ <div fxLayout="column" style="align-items: center">
+  <div fxFlex="100%" class="footer">
+    <div style="text-align:center">
+      <a md-icon-button class="btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+      <a md-icon-button class="btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+      <a md-icon-button class="btn-mail" href="mailto:18362963209@163.com"><i class="fa fa-envelope-o fa-lg"></i></a>
+      <a md-icon-button class="btn-twitter" href="sms://9374697256"><i class="fa fa-commenting-o fa-lg"></i></a>
+    </div>
+  </div>
 
-<p>
-  contact works!
-</p>
+  <div fxFlex="30%" class="form" >
+    <h3>Send me your Feedback</h3>
+    <form novalidate [formGroup]="feedbackForm" (ngSubmit)="onSubmit()">
+      <p>
+        <md-input-container style="width: 95%">
+          <textarea mdInput formControlName="message" placeholder="Your Feedback" rows=5></textarea>
+        </md-input-container>
+      </p>
+      <button type="submit" md-button color="primary" [disabled]="feedbackForm.invalid">Submit</button>
+    </form>
+  </div>
+ </div>
