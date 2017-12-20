@@ -1,16 +1,99 @@
-.bubble {
-    //background-color: #55acee;
-	margin:10px;
-    padding: 10px;
-	text-align:center;
-	background: #558cee;
-	background: linear-gradient(45deg, #558cee, #75ccfe);
 
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-    display:inline-block;
-    *display:inline;
-    *zoom:2;
+#wrapper {
+	font-family:  "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	max-width: 700px; 
+	margin: 0 auto 0px; 
+	background-color: rgba(255, 256, 256, 0.5);
+	padding: 20px 0 20px 0;
+	border-radius: 20px;
+	position: relative;}
+
+ul {margin: 0 0 0 15px; position: relative;list-style: none;}
+li {margin: 0 0 20px 0; font-size: 13px;}
+p {text-align: justify; font-size: 13px;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;font-weight: bold;}
+
+
+.Content {
+	position: relative;
+	padding: 0 60px;
+	margin: 20px 0 20px 0;
 }
+
+.sectionHead {
+	clear: both; 
+	font:bold 20px/12px 'verdana',sans-serif;
+	border-left: 52px solid #444;
+	color: #444;
+	padding:0 60px 0 0;
+	margin: 20px 0 10px 0;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	position: relative;
+}
+.sectionHead:before {
+	content: "";
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: -105px;
+	top: -15px;
+}
+
+
+#bio h2 {font-size: 15px; padding: 0 0 0 60px;}
+#bio p {
+	clear: left; 
+	margin:20px 60px; 
+	padding:20px 25px; 
+	max-width: 560px; 
+	background-color: rgba(240, 240, 240, 0.5);
+	border: 1px solid; 
+	border-radius: 8px; 
+	position: relative; 
+	border-width: 0 1px 1px; 
+	line-height: 1.6em;
+}
+
+ul#skills li {
+	position: relative;
+	background-color: #444;
+	color: #888;
+    font:bold 9px/20px sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    padding:1px 0 1px 30px;
+    text-transform: uppercase;
+}
+
+ul#skills li.s100:after {float:right; content: "100%";}
+ul#skills li.s90:after {float:right; content: "90%";}
+ul#skills li.s80:after {float:right; content: "80%";}
+ul#skills li.s70:after {float:right; content: "70%";}
+ul#skills li.s60:after {float:right; content: "60%";}
+ul#skills li.s50:after {float:right; content: "50%";}
+ul#skills li.s40:after {float:right; content: "40%";}
+ul#skills li.s30:after {float:right; content: "30%";}
+ul#skills li.s20:after {float:right; content: "20%";}
+ul#skills li.s10:after {float:right; content: "10%";}
+
+
+ul#skills li:hover {background: #222;}
+
+li.s100 {width: 97.71428571428571%;}
+li.s90 {width: 87.71428571428571%;}
+li.s80 {width: 77.71428571428571%;}
+li.s70 {width: 67.71428571428571%;}
+li.s60 {width: 57.714285714285715%;}
+li.s50 {width: 47.714285714285715%;}
+li.s40 {width: 37.714285714285715%;}
+li.s30 {width: 27.714285714285715%;}
+li.s20 {width: 17.714285714285715%;}
+li.s10 {width: 7.714285714285714%;}
+
+
+
+
+
+
 

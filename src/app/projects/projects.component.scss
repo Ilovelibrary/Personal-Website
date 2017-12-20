@@ -1,10 +1,25 @@
+.container {
+    padding: 0 50px 0 50px;
+}
 
-.project{
-  background-color: rgba(255, 256, 256, 0.5);
-  text-align: center;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
+.feature-work-items {
+    background-color: rgba(255, 256, 256, 0.5);
+    padding: 20px 0 20px 0;
     border-radius: 20px;
+}
+
+.card {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card-image {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
 }
 
 img {
