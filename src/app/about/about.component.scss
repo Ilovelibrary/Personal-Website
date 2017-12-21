@@ -1,24 +1,17 @@
-
-#wrapper {
+.container {
+	padding: 0 50px 0 50px;
+}
+.wrapper {
 	font-family:  "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	max-width: 700px; 
-	margin: 0 auto 0px; 
 	background-color: rgba(255, 256, 256, 0.5);
 	padding: 20px 0 20px 0;
 	border-radius: 20px;
-	position: relative;}
+}
 
 ul {margin: 0 0 0 15px; position: relative;list-style: none;}
 li {margin: 0 0 20px 0; font-size: 13px;}
 p {text-align: justify; font-size: 13px;}
 h1,h2,h3,h4,h5,h6 {font-weight: normal;font-weight: bold;}
-
-
-.Content {
-	position: relative;
-	padding: 0 60px;
-	margin: 20px 0 20px 0;
-}
 
 .sectionHead {
 	clear: both; 
